@@ -4,7 +4,7 @@ import { Sun, Moon, Volume2 } from "lucide-react";
 import { useTheme } from "@/app/context/ThemeContext";
 import { useSound } from "@/app/context/SoundContext";
 import VolumeControl from "@/app/components/VolumeControl";
-import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "@/app/components/ui/Tooltip";
+import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "@app/components/ui/Tooltip";
 
 export default function Header() {
   const [isVolumeHovered, setIsVolumeHovered] = useState(false);
